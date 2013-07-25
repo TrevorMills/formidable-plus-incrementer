@@ -3,7 +3,7 @@ Formidable Plus Incrementer
 
 Formidable Plus Incrementer - An Example Add-On to Formidable Plus.
 
-This is a WordPress plugin.  
+This is a WordPress plugin that includes a jQuery add-on in your WordPress site that is using Formidable Plus.  
 
 See readme.txt.
 
