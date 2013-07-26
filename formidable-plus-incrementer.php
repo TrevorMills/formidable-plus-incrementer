@@ -38,6 +38,9 @@ function fplus_incrementer_add_style(){
 	filter: alpha(opacity=100);
 	background-color:white;
 	border:none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;	
 }
 </style>
 ';

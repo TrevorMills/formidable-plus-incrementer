@@ -35,7 +35,7 @@
 				}
 
 				// Disable the input, add a class, set the value to the current value of fplus_incrementer.counter (plus 1), then increment that counter
-				$(this).find( 'input' ).prop( 'disabled', true ).addClass( 'fplus-incrementer' ).val( fplus_incrementer.counter++ + 1);
+				$(this).find( 'input' ).focus(function(){$(this).blur();}).addClass( 'fplus-incrementer' ).val( fplus_incrementer.counter++ + 1);
 			});			
 		},	
 	};
