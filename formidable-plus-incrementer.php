@@ -29,6 +29,7 @@ function fplus_incrementer_add_script(){
 }
 
 add_action('wp_print_styles','fplus_incrementer_add_style');
+add_action('admin_print_styles','fplus_incrementer_add_style');
 function fplus_incrementer_add_style(){
 	echo '
 <style type="text/css">
